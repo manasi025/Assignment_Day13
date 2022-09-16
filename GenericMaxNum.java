@@ -25,7 +25,7 @@ public class GenericMaxNum
 		{
 			System.out.println(num1 + " is greatest");
 		}
-		else if (num2.compareTo(num3) > 0) 
+		else if (num2.compareTo(num1) > 0 && num2.compareTo(num3) > 0) 
 		{
 			System.out.println(num2 + " is greatest");
 
